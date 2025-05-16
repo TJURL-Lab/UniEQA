@@ -1,23 +1,5 @@
-# UniEQA
-<a name="readme-top"></a>
-
-<p align="left">
-<!--     <a href='https://arxiv.org/abs/2407.05047'>
-      <img src='https://img.shields.io/badge/Paper-arXiv-green?style=plastic&logo=arXiv&logoColor=green' alt='Paper Arxiv'>
-    </a>
-    <a href='https://arxiv.org/pdf/2407.05047'>
-      <img src='https://img.shields.io/badge/Paper-PDF-red?style=plastic&logo=adobeacrobatreader&logoColor=red' alt='Paper PDF'>
-    </a> -->
-    <a href='https://UniEQA.github.io/'>
-      <img src='https://img.shields.io/badge/Project-Page-blue?style=plastic&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
-    </a>
-</p>
-
-for the new data, please refer to the link: [Data]([https://drive.google.com/drive/folders/1jxiVVzJn87Of6OJ_h0dVUQN1bbjYXy0c?usp=drive_link](https://huggingface.co/datasets/TJURL-Lab/UniEQA))
-
-This repo contains benchmark data and code for our NeurIPS Datasets and Benchmarks 2025 paper:
-
-[UniEQA & UniEval: A Unified Benchmark and Evaluation Platform for Multimodal Foundation Models in Embodied Question Answering]
+This repository contains the code for our manuscript UniEQA & UniEval: A Unified Benchmark and Evaluation Platform for Multimodal Foundation Models in Embodied Question Answering.
+For the data, please refer to the link: [Data]([https://drive.google.com/drive/folders/1jxiVVzJn87Of6OJ_h0dVUQN1bbjYXy0c?usp=drive_link](https://huggingface.co/datasets/TJURL-Lab/UniEQA))
 
 <details>
   <summary>Table of Contents</summary>
@@ -32,7 +14,6 @@ This repo contains benchmark data and code for our NeurIPS Datasets and Benchmar
     </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
