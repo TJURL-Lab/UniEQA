@@ -13,15 +13,11 @@
     </a>
 </p>
 
-for the new data, please refer to the Google Drive link: [New Data](https://drive.google.com/drive/folders/1jxiVVzJn87Of6OJ_h0dVUQN1bbjYXy0c?usp=drive_link)
+for the new data, please refer to the link: [Data]([https://drive.google.com/drive/folders/1jxiVVzJn87Of6OJ_h0dVUQN1bbjYXy0c?usp=drive_link](https://huggingface.co/datasets/TJURL-Lab/UniEQA))
 
 This repo contains benchmark data and code for our NeurIPS Datasets and Benchmarks 2025 paper:
 
-[UniEQA & UniEval: A Unified Benchmark and Evaluation Platform for Multimodal Foundation Models in Embodied Question Answering](https://UniEQA.github.io/)
-
-<!--[Baoxiong Jia](https://buzz-beater.github.io/), [Ting Lei](https://scholar.google.com/citations?user=Zk7Vxz0AAAAJ&hl=en), [Song-Chun Zhu](http://www.stat.ucla.edu/~sczhu/), [Siyuan Huang](https://siyuanhuang.com/)-->
-
-![data_example](./readme_material/data_example.png)
+[UniEQA & UniEval: A Unified Benchmark and Evaluation Platform for Multimodal Foundation Models in Embodied Question Answering]
 
 <details>
   <summary>Table of Contents</summary>
