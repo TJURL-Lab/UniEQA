@@ -1,6 +1,6 @@
 This repository contains the code for our manuscript UniEQA & UniEval: A Unified Benchmark and Evaluation Platform for Multimodal Foundation Models in Embodied Question Answering.
 
-For the data, please refer to the link: [Data]([https://drive.google.com/drive/folders/1jxiVVzJn87Of6OJ_h0dVUQN1bbjYXy0c?usp=drive_link](https://huggingface.co/datasets/TJURL-Lab/UniEQA))
+For the data, please refer to the link: [Data](https://huggingface.co/datasets/TJURL-Lab/UniEQA)
 
 <details>
   <summary>Table of Contents</summary>
