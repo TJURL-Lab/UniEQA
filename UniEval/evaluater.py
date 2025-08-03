@@ -24,14 +24,14 @@ def read_config(path):
 
 cfg = read_config("./peng_utils/openai_cfg.json")["apis"][1]
 
-API_KEY = cfg["api_key"]   # "sk-PKyZi2gwcHhoP9dkF7586e40866c4973BbD8371d5eCf76A5" # "sk-AlrjjyFMEiRBR7UC18A4F6DcF4F641039e757d01839036F8"
+API_KEY = cfg["api_key"]   
 
 os.environ["OPENAI_API_KEY"] = API_KEY
 os.environ["http_proxy"] = cfg["http_proxy"]
 os.environ["https_proxy"] = cfg["https_proxy"]
 
 ### TODO #open source: remove my Proxy
-Proxy = cfg["proxy"]    # "apix.ai-gaochao.cn"    # default: Proxy = "api.openai.com" # openai.arnotho.com
+Proxy = cfg["proxy"]    
 
 class Eval:
     def __init__(self):
