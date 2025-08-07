@@ -1,20 +1,17 @@
 This repository contains the code for our manuscript UniEQA & UniEval: A Unified Benchmark and Evaluation Platform for Multimodal Foundation Models in Embodied Question Answering.
 
-For the data, please refer to the link: [Data](https://huggingface.co/datasets/TJURL-Lab/UniEQA)
-
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Getting-started">Getting Started</a>
       <ul>
-        <li><a href="#installation">installation</a></li>
-        <li><a href="#inference">inference</a></li>
-        <li><a href="#evaluation">evaluation</a></li>
+        <li><a href="#Installation">Installation</a></li>
+        <li><a href="#Inference and Evaluation">Inference</a></li>
       </ul>
     </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#Contributing">Contributing</a></li>
+    <li><a href="#License">License</a></li>
   </ol>
 </details>
 
@@ -29,7 +26,7 @@ For the data, please refer to the link: [Data](https://huggingface.co/datasets/T
       <a>scrpts</a>
       <ul>
         <li><a>UniEval: evaluation platform code for UniEval</a></li>
-        <li><a>scripts: An example of an inference script for a model</a></li>
+        <li><a>scripts: example of a model evaluation script</a></li>
 <!--         <li><a>minigpt4_eval.yaml.py: configuration file for Minigpt4</a></li> -->
       </ul>
     </li>
@@ -40,11 +37,11 @@ For the data, please refer to the link: [Data](https://huggingface.co/datasets/T
 
 ## Getting Started
         
-### installation
+### Installation
 
 1. Build environment
 
-   We recommend building a standalone Conda environment for the model you want to use. For example if you want to use BLIP-2:
+ We recommend building a standalone Conda environment for the model you want to use. For example, if you want to use BLIP-2:
 
   ```sh
   conda create -n BLIP-2 python=3.10
@@ -52,7 +49,7 @@ For the data, please refer to the link: [Data](https://huggingface.co/datasets/T
   pip install -r requirement.txt
   ```
 
-   The requirement file of BLIP-2 is at [https://github.com/salesforce/LAVIS/blob/main/requirements.txt](https://github.com/salesforce/LAVIS/blob/main/requirements.txt)
+  The requirement file of BLIP-2 is at [https://github.com/salesforce/LAVIS/blob/main/requirements.txt](https://github.com/salesforce/LAVIS/blob/main/requirements.txt)
    
   We recommend building a standalone Conda environment for UniEval:
 
@@ -69,24 +66,30 @@ For the data, please refer to the link: [Data](https://huggingface.co/datasets/T
    git clone https://github.com/TJURL-Lab/UniEQA
    cd UniEQA
    ```
+### Download the dataset
 
-### inference
+1. For the dataset, please refer to the link: [Data](https://huggingface.co/datasets/TJURL-Lab/UniEQA)
 
-1. Run prediction script
+   ```sh
+   mv dataset ~/UniEval/benchmarks/
+   ```
+   
+### Inference and Evaluation
+
+1. Run the prediction and evaluation script for a model
 
    ```sh
    python dataset_predict_blip.py --model blip2flant5xl --output-root "./benchmark-evaluation" --device'"cuda:0"
-   ```
-
-### evaluation
-
-1. Run evaluation script
-
-   ```sh
    python evaluation_gpt3.5_mp.py
    ```
+   <p align="right">(<a href="#readme-top">back to top</a>)</p>
+2. Run the evaluation platform UniEval
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+   ```sh
+   python controller.py
+   python server_demo.py
+   ```
+   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contributing
 
