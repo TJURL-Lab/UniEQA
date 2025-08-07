@@ -60,6 +60,9 @@ For the data, please refer to the link: [Data](https://huggingface.co/datasets/T
   conda create -n UniEval python=3.10
   conda activate UniEval
   ```
+  ```sh
+  conda env create -f environment.yml
+  ```
 2. Clone the repo
 
    ```sh
