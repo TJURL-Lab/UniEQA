@@ -28,16 +28,9 @@ For the data, please refer to the link: [Data](https://huggingface.co/datasets/T
     <li>
       <a>scrpts</a>
       <ul>
-        <li><a>chat_gpt_api.py: encapsulating ChatGPT inference</a></li>
-        <li><a>dataset_predict_blip.py: inference script for BLIP-2 and InstructBLIP</a></li>
-        <li><a>dataset_predict_gpt4v.py: inference script for ChatGPT(-4V)</a></li>
-        <li><a>dataset_predict_llava.py: inference script for llava</a></li>
-        <li><a>dataset_predict_minicpm.py: inference script for minicpm</a></li>
-        <li><a>dataset_predict_minigpt4.py: inference script for minigpt4</a></li>
-        <li><a>evaluate_gpt3.5_mp: using GPT-3.5 to evaluate prediction results with multithreading</a></li>
-        <li><a>minigpt4_eval.yaml.py: configuration file for Minigpt4</a></li>
-        <li><a>openai_cfg.json: configuration file for OpenAI api</a></li>
-        <li><a>task_planning.py: Embodied Reasoning with GPT-4V</a></li>
+        <li><a>UniEval: evaluation platform code for UniEval</a></li>
+        <li><a>scripts: An example of an inference script for a model</a></li>
+<!--         <li><a>minigpt4_eval.yaml.py: configuration file for Minigpt4</a></li> -->
       </ul>
     </li>
     <li><a>LICENSE: license file</a></li>
@@ -60,7 +53,13 @@ For the data, please refer to the link: [Data](https://huggingface.co/datasets/T
   ```
 
    The requirement file of BLIP-2 is at [https://github.com/salesforce/LAVIS/blob/main/requirements.txt](https://github.com/salesforce/LAVIS/blob/main/requirements.txt)
+   
+  We recommend building a standalone Conda environment for UniEval:
 
+  ```sh
+  conda create -n UniEval python=3.10
+  conda activate UniEval
+  ```
 2. Clone the repo
 
    ```sh
